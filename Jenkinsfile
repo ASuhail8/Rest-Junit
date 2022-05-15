@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build the docker image'){
             steps{
-                sh 'docker build -t asuhail/rest-junit'
+                sh 'docker build -t asuhail/rest-junit .'
             }
         }
         stage('Push the docker image to docker hub'){
