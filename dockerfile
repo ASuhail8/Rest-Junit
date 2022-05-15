@@ -8,7 +8,7 @@ WORKDIR /restapi-junit
 USER root
 RUN apk update && apk add maven
 #Copy all project files to container
-COPY ./src /restapi-junit/src
-COPY ./pom.xml /restapi-junit/pom.xml
+ADD ./src /restapi-junit/src
+ADD ./pom.xml /restapi-junit/pom.xml
 
 ENTRYPOINT mvn clean test -Dtest=rest.Tests.oAuth
