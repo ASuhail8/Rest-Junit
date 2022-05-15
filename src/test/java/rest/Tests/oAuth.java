@@ -23,7 +23,7 @@ public class oAuth {
 		String[] WebAutomationCourseTitles = { "Selenium Webdriver Java", "Cypress", "Protractor" };
 
 		String accessTokenResponse = given().urlEncodingEnabled(false).log().all()
-				.queryParam("code", "4%2F0AX4XfWiuQLIUoG6gOxBbOJMUWvXHrEltbsm3uemlYSaVzPGr3rL5NbyQoKGEXoduDUBEVg")
+				.queryParam("code", "4%2F0AX4XfWhsSLBslTOQYCEOcG-KcKwE8QqOe08o7vAAzRImkN_nJ_LF7qxCZtGsGNwPrDPWeg")
 				.queryParam("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
 				.queryParam("client_secret", "erZOWM9g3UtwNRj340YYaK_W")
 				.queryParam("redirect_uri", "https://rahulshettyacademy.com/getCourse.php")
