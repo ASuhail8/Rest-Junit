@@ -21,7 +21,7 @@ public class oAuth {
 	public void test() {
 
 		String[] WebAutomationCourseTitles = { "Selenium Webdriver Java", "Cypress", "Protractor" };
-		String code = "4%2F0AX4XfWj3HBAwlEGDLu-t2QG2XPCZEwdU4SFArDv65Emqwd3oraBjm-w7aB6PyjRtOyFxeg";
+		String code = "4%2F0AX4XfWgHIFSUnDuVe0Ai6auQQAoTbMxcC0gEyyktIH0B5-jeKHGMSnSCPBrlX3J_-YH-9A";
 		System.out.println(code);
 		String accessTokenResponse = given().urlEncodingEnabled(false).log().all().queryParam("code", code)
 				.queryParam("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
