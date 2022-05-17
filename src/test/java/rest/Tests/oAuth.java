@@ -16,7 +16,7 @@ import restAssured.pojo.WebAutomation;
 import restAssured.pojo.getCourse;
 
 public class oAuth {
-	//This is my feature branch
+	
 	@Test
 	public void test() {
 
